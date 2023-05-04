@@ -10,6 +10,9 @@
     min-width: 650px;
 }
 
-.card__heading {
+.card__heading {}
+
+.card__heading_complete {
     text-decoration: line-through;
+    color: green;
 }

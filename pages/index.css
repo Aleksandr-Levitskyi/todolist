@@ -9,3 +9,6 @@
 
 /* buttons-area */
 @import url(../blocks/buttons-area/buttons-area.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
