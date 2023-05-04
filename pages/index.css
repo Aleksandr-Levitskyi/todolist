@@ -1,0 +1,11 @@
+/* page */
+@import url(../blocks/page/page.css);
+
+/* task */
+@import url(../blocks/task/task.css);
+
+/* card */
+@import url(../blocks/card/card.css);
+
+/* buttons-area */
+@import url(../blocks/buttons-area/buttons-area.css);

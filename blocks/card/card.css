@@ -1,0 +1,15 @@
+.card {
+    border: 1px red solid;
+
+    padding: 0 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 650px;
+}
+
+.card__heading {
+    text-decoration: line-through;
+}

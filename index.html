@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./pages/index.css">
     <title>todo0list</title>
 </head>
 
@@ -12,7 +14,7 @@
     <header class="header">
         <h1 class="header__title">todo0list</h1>
     </header>
-    <main class="content">
+    <main class="conten">
         <section class="task task_in-progress">
             <div class="task__header">
                 <h2 class="task__title">В процессе</h2>
@@ -29,11 +31,48 @@
                 </article>
             </div>
         </section>
-        <section class="task task_complete"></section>
+        <section class="task task_complete">
+            <div class="task__header task__header_type_complete">
+                <h2 class="task__title">Готово</h2>
+            </div>
+            <div class="task__list">
+                <article class="card">
+                    <h2 class="card__heading">название задачи</h2>
+                    <div class="buttons-area">
+                        <button class="button button_type_remove" value="" type="button">удалить</button>
+                        <button class="button button_type_edit" value="" type="button">редактировать</button>
+                        <button class="button button_type_complete" value="" type="button">завершить</button>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <p class="footer__copyright">project by Sashka Enot</p>
     </footer>
+
+    <div class="popup popup_type_add-task">
+        <h2 class="popup__title">Новая задача</h2>
+        <input class="popup__input" type="text" name="input_task-heading" id="task-heading-add"
+            placeholder="введите название">
+        <div class="colours">
+            <button class="color color_type_red" type="button">красный</button>
+            <button class="color color_type_yellow" type="button">желтый</button>
+            <button class="color color_type_green" type="button">зеленый</button>
+        </div>
+        <button class="popup__button" type="submit">сохранить</button>
+    </div>
+    <div class="popup popup_type_edit-task">
+        <h2 class="popup__title">редактировать</h2>
+        <input class="popup__input" type="text" name="input_task-heading" id="task-heading-add"
+            placeholder="введите название">
+        <div class="colours">
+            <button class="color color_type_red" type="button">красный</button>
+            <button class="color color_type_yellow" type="button">желтый</button>
+            <button class="color color_type_green" type="button">зеленый</button>
+        </div>
+        <button class="popup__button" type="submit">сохранить</button>
+    </div>
 
 </body>
 

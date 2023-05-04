@@ -1,0 +1,25 @@
+.task {
+    display: flex;
+    flex-direction: column;
+}
+
+.task__list {
+    margin: 0 auto;
+}
+
+.task__header {
+    margin: 0 auto;
+    padding: 0 25px 0;
+    display: flex;
+    align-items: center;
+
+    gap: 100px;
+}
+
+/* .task__header::after {
+    border: 1px red solid
+}
+ */
+.task__title {
+    text-transform: uppercase;
+}
